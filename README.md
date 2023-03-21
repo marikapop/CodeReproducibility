@@ -5,8 +5,7 @@ The project Code Reproducibility was launched in 2022 and aims to:
 - build collaborations with existing communities/groups that promote software development best practices and reproducibility.
 - create a community of reproducibility training experts that will enable us to create, maintain and teach the reproducibility training programme developed.
 
-## Topics
-1. 
+The repository is for the website development of the Code Reproducibility.
 
 ## Organisers
 The project is part of ELIXIR Europe, and it is led by Alexia Cardona (ELIXIR-UK) and Nazeefa Fatima (ELIXIR-Norway).
