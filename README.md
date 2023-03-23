@@ -9,3 +9,7 @@ The repository is for the website development of the Code Reproducibility.
 
 ## Organisers
 The project is part of ELIXIR Europe, and it is led by Alexia Cardona (ELIXIR-UK) and Nazeefa Fatima (ELIXIR-Norway).
+
+## Attribution
+
+The [ELIXIR Toolkit Theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme) is developed by [ELIXIR Belgium](https://github.com/ELIXIR-Belgium) and it is available under [MIT License](http://opensource.org/licenses/MIT).
