@@ -5,7 +5,7 @@ columns:
     width: 2
     src: 'assets/img/converge_logo.svg'
     alt: ELIXIR Converge logo
-   - type: image
+  - type: image
     image_width: 120px
     width: 1
     src: 'assets/img/ELIXIR-logo.svg'
