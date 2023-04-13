@@ -11,9 +11,15 @@ layout: none
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
-        <section class="container mb-5">
+        <section class="container mb-3">
             <div>
                 <h1>Code Reproducibility Training</h1>
-                <p class="text-center mt-2">Training material to help you create FAIR (Findable, Accessible, Interoperable and Reusable) code and scripts.</p>
+                <p class="text-center">Training material to help you create FAIR (Findable, Accessible, Interoperable and Reusable) code and scripts.</p>
             </div>
         </section>
+    {%- endif %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+
+</html>
