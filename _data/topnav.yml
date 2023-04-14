@@ -3,3 +3,6 @@ subitems:
     url: /index
   - title: Contribute
     url: /contribute
+  - title: Learning Path
+    url: /lessons
+    
