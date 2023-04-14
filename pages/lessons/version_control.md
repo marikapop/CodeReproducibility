@@ -1,5 +1,5 @@
 ---
-layout:
+layout: tile
 title: Version Control
 type: lessons
 search_exclude: false
