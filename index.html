@@ -19,96 +19,25 @@ layout: none
         </section>
         <section class="bg-light pb-5">
                     <div class="container">
-                        <h2 class="no-anchor text-center mb-3">Browse training material by topics:</h2>
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-
-                            <!-- Version Control -->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto"
-                                        alt="Version Control icon">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Version Control</h3>
-                                        </a>
-                                        <p class="card-text">Training material on version control</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Containers -->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Containers</h3>
-                                        </a>
-                                        <p class="card-text">Syllabus on containers</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Software/Code Documentation -->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Code Documentation</h3>
-                                        </a>
-                                        <p class="card-text">Training material on code documentation</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Literate Programming-->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Literate Programming</h3>
-                                        </a>
-                                        <p class="card-text">Training material on literate programming</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Code Testing-->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Code Testing</h3>
-                                        </a>
-                                        <p class="card-text">Training syllabus on code testing</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- CI/CD-->
-                            <div class="col">
-                                <div class="card border bg-white h-100">
-                                     <!-- add link after img src="" -->
-                                    <img src="" class="card-img-top h-icon-5 mx-auto">
-                                    <div class="card-body text-center">
-                                         <!-- add link in href -->
-                                        <a href="" target="_blank" class="stretched-link">
-                                            <h3 class="card-title no-anchor text-primary">Continuous Integration/Deployment</h3>
-                                        </a>
-                                        <p class="card-text">Training syllabus on CI/CD</p>
-                                    </div>
-                               </div>
-                            </div>
+                        <div class="row">
+                          <div class="col-sm-8">Heading</div>
+                          <div class="col-sm-4">Text</div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-8">Heading</div>
+                          <div class="col-sm-4">Text</div>
                         </div>
                     </div>
+                    <div class="col-lg-7">
+                        <h2>Acknowledgement</h2>
+                        <p>Thanks to <a
+                                href="{{ '/team' | relative_url }}"><b>everyone, from and beyond ELIXIR,
+                                for their contributions to the Code Reproducibility</b></a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 my-auto">
+                        <a class="btn btn-primary btn-lg rounded-pill" href="{{ '/contribute/' | relative_url }}">Click here to contribute</a>
+                    </div>           
                 </section>                  
     {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
     <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
