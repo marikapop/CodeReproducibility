@@ -1,8 +1,10 @@
 subitems:
   - title: About
     url: /index
-  - title: Contribute
-    url: /contribute
   - title: Learning Path
     url: /lessons
+  - title: Our Team
+    url: /team   
+  - title: Contribute
+    url: /contribute
     
