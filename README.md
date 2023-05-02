@@ -9,8 +9,8 @@ The repository is for the website development of the Code Reproducibility.
 
 ## Website:
 Coming Soon!
-[![CC BY 4.0][cc-by-shield]][cc-by]
 
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Organisers
 The project is part of ELIXIR Europe, and it is led by Alexia Cardona (ELIXIR-UK) and Nazeefa Fatima (ELIXIR-Norway).
