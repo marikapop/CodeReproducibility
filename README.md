@@ -7,8 +7,10 @@ The project Code Reproducibility was launched in 2022 and aims to:
 
 The repository is for the website development of the Code Reproducibility.
 
-## Website
+## Website:
 Coming Soon!
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
 
 ## Organisers
 The project is part of ELIXIR Europe, and it is led by Alexia Cardona (ELIXIR-UK) and Nazeefa Fatima (ELIXIR-Norway).
