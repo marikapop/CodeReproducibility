@@ -29,6 +29,11 @@ permalink: pretty
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 defaults:
 -
@@ -42,12 +47,12 @@ defaults:
     topnav: topnav
 -
   scope:
-    path: "pages/about"
-    type: "pages"
+    path: "pages/lessons"
+    type: "tracks"
   values:
     permalink: /:basename
     layout: "page"
-    sidebar: about
+    sidebar: lessons
     topnav: topnav
 
 plugins:
