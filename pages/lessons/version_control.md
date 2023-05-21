@@ -4,6 +4,6 @@ title: Version Control
 type: lessons
 search_exclude: false
 contributors: [Alexia Cardona]
-description: Version Control
+description: Training material on version control
 tracks: ["Python", "R"]
 ---
