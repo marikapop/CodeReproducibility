@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Contributors
-search_exclude: true
 sidebar: team
 custom-editme: _data/CONTRIBUTORS.yaml
 ---
