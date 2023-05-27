@@ -15,14 +15,14 @@
     {%- unless include.affiliations == nil %}
     <div class="col">
         <div class="input-group">
-            <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
+            <label class="input-group-text" for="affiliations-input">Filter by tracks</label>
             <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
                 <option selected="" value="reset">Choose...</option>
                 {%- for affiliation in allaffiliations %}
                 {%- if affiliation.size == 2 %}
                 {%- assign country = affiliation | upcase %}
-                <option value="{{country | slugify}}">{{allcountries[country]}}</option>
-                {%- else %}
+                <!-- <option value="{{country | slugify}}">{{allcountries[country]}}</option>
+                {%- else %} -->
                 <option value="{{affiliation | slugify}}">{{affiliation}}</option>
                 {%- endif %}
                 {%- endfor %}
@@ -106,6 +106,7 @@
                 </div>
                 {%- endif %}
                 {%- endif %}
+                <!--
                 {%- if current_page.dsw or current_page.faircookbook %}
                 <div class="btn-group btn-group-sm" role="group">
                     {%- if current_page.faircookbook %}
@@ -134,6 +135,7 @@
                     {%- endif %}
                 </div>
                 {%- endif %}
+                    -->
             </div>
             {%- if current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
