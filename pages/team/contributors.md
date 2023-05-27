@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Contributors
 sidebar: team
 custom-editme: _data/CONTRIBUTORS.yaml
