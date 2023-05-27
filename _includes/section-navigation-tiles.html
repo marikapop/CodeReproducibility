@@ -64,13 +64,13 @@
     {%- endif %}
     <div class="col" data-affiliations="{{affiliations_classes}}" related-pages="{{related_pages_classes}}">
         <div class="card h-100">
-          <!--
             <div class="card-header">
+                 <!--
                 <a class="stretched-link" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}">
+-->
                     <h3 class="card-title m-0">{{current_page.title}}</h3>
                 </a>
             </div>
--->
             <div class="card-body">
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
@@ -85,6 +85,7 @@
                 {%- endunless %}
                 {%- endfor %}
                 {%- if nonempty %}
+                <!--
                 <div class="dropdown">
                     <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Related pages
@@ -135,11 +136,11 @@
                     {%- endif %}
                 </div>
                 {%- endif %}
-                    -->
             </div>
             {%- if current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
             {%- assign allcountries = site.data.countries %}
+                    -->
             <div class="card-footer d-flex align-middle">
                 <div class="me-3">
                     <span class="me-2"><b><small>Tracks:</small></b></span>
