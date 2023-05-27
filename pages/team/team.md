@@ -1,5 +1,5 @@
 ---
-layout: page
+layout:
 title: Team
 permalink: /team/
 sidebar: team
