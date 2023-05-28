@@ -10,6 +10,7 @@
 #    affiliation: affiliation
 #    image_url: absolute path to image (default image from github)
 
+# Project Leads of Code Reproduciibility
 Alexia Cardona:
     git: ac812
     email: ac812@cam.ac.uk
@@ -23,3 +24,17 @@ Nazeefa Fatima:
     orcid: 0000-0001-7791-4984
     role: Project Organiser
     affiliation: ELIXIR Norway
+    
+# Literate Programming
+
+# Version Control
+
+# Code/Software Documentation
+
+# Code/Software Testing
+
+# Containers
+
+# CI/CD
+
+
