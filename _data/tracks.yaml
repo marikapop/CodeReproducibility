@@ -1,11 +1,11 @@
 - name: Python Track
-  image_url: /images/tracks/Python-logo-notext.svg.png
+  image_url: assets/img/Python-logo-notext.svg.png
   pid:
   expose: true
   type: track
   url: 
 - name: R Track
-  image_url: /images/tracks/R_logo.svg.png
+  image_url: assets/img/tracks/R_logo.svg.png
   pid:
   expose: true
   type: track
