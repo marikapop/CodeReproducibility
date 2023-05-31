@@ -48,11 +48,11 @@ defaults:
 -
   scope:
     path: "pages/lessons"
-    type: "tracks"
+    type: "lessons"
   values:
     permalink: /:basename
     layout: "page"
-    sidebar: lessons
+    #sidebar: lessons
     topnav: topnav
 
 plugins:
