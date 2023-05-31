@@ -8,4 +8,4 @@ We provide here a a list of lessons (in order) and each lessons has two tracks i
 
 Each lessons is maintained by a dedicated team that involves team leader(s) and team members.
 
-{% include section-navigation-tiles.html type="lessons" search=true %}
+{% include section-navigation-tiles.html type="lessons" affiliations=true search=true %}
