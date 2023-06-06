@@ -11,13 +11,14 @@ layout: none
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
-        <section class="container mb-3">
-            <div class="text-center">
+        <section class="container mb-5">
+            <div class="text-center mt-2">
                 <h1>Code Reproducibility Training</h1>
                 <h2>Training material to help you create FAIR (Findable, Accessible, Interoperable
                     and Reusable) code and scripts.</h2>
             </div>
         </section>
+        <!--
         <section class="bg-light pb-3">
             <div class="container">
                 <div class="row g-4">
@@ -84,17 +85,48 @@ layout: none
                 </div>
             </div>
         </section>
+    -->
+        <section class="bg-light pb-5">
+            <div class="container">
+                <h2 class="no-anchor text-center mb-3">Title</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card bg-white h-100">
+                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto"
+                                alt="{{folder.title}} icon">
+                            <div class="card-body text-center">
+                                <h3 class="card-title no-anchor text-primary">Title</h3>
+                                <p class="card-text">Description</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="col-lg-7">
-        <h2>Acknowledgement</h2>
-        <p>Thanks to <a href="{{ '/team' | relative_url }}"><b>everyone, from and beyond ELIXIR,
-                    for their contributions to the Code Reproducibility</b></a>
-        </p>
-    </div>
-    <div class="col-lg-3 my-auto">
-        <a class="btn btn-primary btn-lg rounded-pill" href="{{ '/contribute/' | relative_url }}">Start
-            Contributing</a>
-    </div>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 my-auto">
+                    <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}"
+                        alt="Contributors icon">
+                </div>
+                <div class="col-lg-7">
+                    <h2>Be a part of our team!</h2>
+                    <p>Thanks to <a href="{{ '/contributors' | relative_url }}"><b>everyone, from and beyond ELIXIR,
+                                for their contributions to the Code Reproducibility</b></a>. We would love to have you
+                        onboard. If you are interested in developing training in FAIR Software practices please get in
+                        touch with us.
+                    </p>
+                </div>
+                <div class="col-lg-3 my-auto">
+                    <a class="btn btn-primary btn-lg rounded-pill"
+                        href="{{ '/how_to_contribute' | relative_url }}">Start
+                        contributing</a>
+                </div>
+            </div>
+        </div>
     </section>
     {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
     <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">

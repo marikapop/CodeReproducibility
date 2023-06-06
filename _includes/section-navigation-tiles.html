@@ -27,7 +27,8 @@
                 {%- endif %}
                 {%- endfor %}
             </select>
-            <button class="btn btn-primary" title="Button to clear affiliations selection" type="button" id="clearfilter">
+            <button class="btn btn-primary" title="Button to clear affiliations selection" type="button"
+                id="clearfilter">
                 <i class="fa-solid fa-backspace"></i>
             </button>
         </div>
@@ -37,7 +38,9 @@
     <div class="col">
         <div class="input-group">
             <span class="input-group-text" id="search-label">Search</span>
-            <input type="text" id="title-search" class="form-control" onkeyup="StartSearch();" placeholder="Type here..." aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
+            <input type="text" id="title-search" class="form-control" onkeyup="StartSearch();"
+                placeholder="Type here..." aria-label="{{page.type | replace: '_', ' ' |}}"
+                aria-describedby="search-label">
             <button class="btn btn-primary" title="Button to clear search" type="button" id="clearsearch">
                 <i class="fa-solid fa-backspace"></i>
             </button>
@@ -67,11 +70,6 @@
             <div class="card-header">
                 <h3 class="card-title m-0">{{current_page.title}}
                 </h3>
-                 <!--
-                <a class="stretched-link" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}">
-                    <h3 class="card-title m-0">{{current_page.title}}</h3>
-                </a>
--->
             </div>
             <div class="card-body">
                 {%- if current_page.description %}
@@ -87,34 +85,15 @@
                 {%- endunless %}
                 {%- endfor %}
                 {%- if nonempty %}
-                <!--
-                <div class="dropdown">
-                    <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Related pages
-                    </button>
-                    <ul class="dropdown-menu px-2 py-0 border-0 shadow">
-                        {%- for section in current_page.related_pages %}
-                        {%- unless section[1].size == 0 %}
-                        <li><h6 class="dropdown-header">{{ section[0] | replace: "_", " " | capitalize }}</h6></li>
-                        {%- for page_id in section[1] %}
-                        {%- assign section_pages = site.pages | where:"type", section[0] %}
-                        {%- assign metadata = section_pages | where:"page_id", page_id %}
-                        {%- for page_hit in metadata %}
-                        <li><a class="dropdown-item rounded" href="{{ page_hit.url | relative_url }}">{{page_hit.title }}</a></li>
-                        {%- endfor %}
-                        {%- endfor %}
-                        {%- endunless %}
-                        {%- endfor %}
-                    </ul>
-                </div>
+
                 {%- endif %}
                 {%- endif %}
--->
+
                 {%- if current_page.python or current_page.rlang %}
                 <div class="btn-group btn-group-sm" role="group">
                     {%- if current_page.rlang %}
                     <div class="btn-group btn-group-sm" role="group">
-                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn dropdown-toggle" type="button" aria-expanded="false">
                             <img alt="R logo" src="{{ 'assets/img/R-logo.svg.png' | relative_url }}">
                         </button>
                         <!-- <ul class="dropdown-menu px-2 py-0 border-0 shadow">
@@ -124,10 +103,10 @@
                         </ul> -->
                     </div>
                     {%- endif %}
-                    {%- if current_page.dsw %}
+                    {%- if current_page.python %}
                     <div class="btn-group btn-group-sm" role="group">
-                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img alt="Pythn logo" src="{{ 'assets/img/Python-logo-notext.svg.png' | relative_url }}">
+                        <button class="btn dropdown-toggle" type="button" aria-expanded="false">
+                            <img alt="Python logo" src="{{ 'assets/img/Python-logo-notext.svg.png' | relative_url }}">
                         </button>
                         <!-- <ul class="dropdown-menu px-2 py-0 border-0 shadow">
                             {%- for item in current_page.dsw %}
@@ -151,24 +130,29 @@
                     {%- if affiliation.size == 2 %}
                     {%- assign country_link = site.pages | where:"country_code",country | first %}
                     {%- if country_link %}
-                    <a role="button" href="{{country_link.url | relative_url}}" data-bs-toggle="tooltip" title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary">
-                    {%- else %}
-                    <a role="button" data-bs-toggle="tooltip" title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary disabled border-white" aria-disabled="true">
-                        {%- endif %}
-                        <div class="d-block affiliation-img-sm">
-                            <span class="flag-icon flag-icon-{{affiliation | downcase}} shadow-sm"></span>
-                        </div>
-                    </a>
-                    {%- elsif filter_affiliation %}
-                    <a role="button" href="{{filter_affiliation.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary">
-                        {%- if filter_affiliation.image_url %}
-                        <img alt="logo of {{filter_affiliation.name}}" src="{{filter_affiliation.image_url | relative_url }}" class="d-inline affiliation-img-sm">
+                    <a role="button" href="{{country_link.url | relative_url}}" data-bs-toggle="tooltip"
+                        title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary">
                         {%- else %}
-                        {{filter_affiliation.name}}
+                        <a role="button" data-bs-toggle="tooltip" title="{{allcountries[country]}}"
+                            class="btn btn-sm bg-white hover-primary disabled border-white" aria-disabled="true">
+                            {%- endif %}
+                            <div class="d-block affiliation-img-sm">
+                                <span class="flag-icon flag-icon-{{affiliation | downcase}} shadow-sm"></span>
+                            </div>
+                        </a>
+                        {%- elsif filter_affiliation %}
+                        <a role="button" href="{{filter_affiliation.url}}" data-bs-toggle="tooltip"
+                            data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary">
+                            {%- if filter_affiliation.image_url %}
+                            <img alt="logo of {{filter_affiliation.name}}"
+                                src="{{filter_affiliation.image_url | relative_url }}"
+                                class="d-inline affiliation-img-sm">
+                            {%- else %}
+                            {{filter_affiliation.name}}
+                            {%- endif %}
+                        </a>
                         {%- endif %}
-                    </a>
-                    {%- endif %}
-                    {%- endfor %}
+                        {%- endfor %}
                 </div>
             </div>
             {%- endif %}
