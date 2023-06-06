@@ -88,18 +88,31 @@ layout: none
     -->
         <section class="bg-light pb-5">
             <div class="container">
-                <h2 class="no-anchor text-center mb-3">Title</h2>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card bg-white h-100">
-                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto"
-                                alt="{{folder.title}} icon">
+                            <i class="fa-solid fa-desktop"></i>
+                            <!-- <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto"
+                                alt="{{folder.title}} icon"> -->
+                            <div class="card-body text-center">
+                                <h3 class="card-title no-anchor text-primary">What we do</h3>
+                                <p class="card-text">Description</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white h-100">
+                            <i class="fa-solid fa-desktop"></i>
+                            <div class="card-body text-center">
+                                <h3 class="card-title no-anchor text-primary">Who we are</h3>
+                                <p class="card-text">Description</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white h-100">
+                            <i class="fa-solid fa-desktop"></i>
                             <div class="card-body text-center">
                                 <h3 class="card-title no-anchor text-primary">Title</h3>
                                 <p class="card-text">Description</p>
                             </div>
                         </div>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -109,7 +122,7 @@ layout: none
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 my-auto">
-                    <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}"
+                    <img class="h-icon-6" src=/assets/img/users-light.svg
                         alt="Contributors icon">
                 </div>
                 <div class="col-lg-7">
