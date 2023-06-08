@@ -22,7 +22,7 @@ theme_variables:
     history: true
   topnav:
     theme: light
-    brand_logo: 
+    brand_logo: assets/img/code-rep-web-icon.png
     github: true
 
 permalink: pretty
@@ -52,7 +52,23 @@ defaults:
   values:
     permalink: /:basename
     layout: "page"
-    #sidebar: lessons
+    topnav: topnav
+-
+  scope:
+    path: "pages/team"
+    type: "pages"
+  values:
+    permalink: /:basename
+    layout: "page"
+    topnav: topnav
+
+-
+  scope:
+    path: "pages/contribute"
+    type: "pages"
+  values:
+    permalink: /:basename
+    layout: "page"
     topnav: topnav
 
 plugins:
