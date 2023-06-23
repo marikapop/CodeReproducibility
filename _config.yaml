@@ -56,7 +56,7 @@ defaults:
 -
   scope:
     path: "pages/team"
-    type: "pages"
+    type: "page"
   values:
     permalink: /:basename
     layout: "page"
