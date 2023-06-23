@@ -15,14 +15,14 @@ Alexia Cardona:
     git: ac812
     email: ac812@cam.ac.uk
     orcid: 0000-0002-7877-5565
-    role: Project Organiser
+    role: Lead
     affiliation: ELIXIR UK
     
 Nazeefa Fatima:
     git: Nazeeefa
     email: nazeefaf@uio.no
     orcid: 0000-0001-7791-4984
-    role: Project Organiser
+    role: Lead
     affiliation: ELIXIR Norway
 
 ## Example layout
@@ -38,8 +38,8 @@ Maria Elisa Pierfederici:
     git: mariapie
     email: mariaepi@uio.no
     orcid: 0000-0002-6882-6576
-    role: Project Author
-    affiliation: University of Oslo Norway
+    role: Author
+    affiliation: University of Oslo, Norway
 
 # Version Control
 
@@ -48,6 +48,13 @@ Maria Elisa Pierfederici:
 # Code/Software Testing
 
 # Containers
+
+Alexander Botzki:
+    git: abotzki
+    email: alexander.botzki@vib.be
+    orcid: 0000-0001-6691-4233
+    role: Lead and Author
+    affiliation: ELIXIR Belgium
 
 # CI/CD
 
