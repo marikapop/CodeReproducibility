@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project Leads
+title: Our Team
 sidebar: team
 custom-editme: _data/CONTRIBUTORS.yaml
 ---
