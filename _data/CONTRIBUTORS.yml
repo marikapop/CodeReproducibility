@@ -15,24 +15,17 @@ Alexia Cardona:
     git: ac812
     email: ac812@cam.ac.uk
     orcid: 0000-0002-7877-5565
-    role: Lead
+    #role: Lead
     affiliation: ELIXIR UK
     
 Nazeefa Fatima:
     git: Nazeeefa
     email: nazeefaf@uio.no
     orcid: 0000-0001-7791-4984
-    role: Lead
+    #role: Lead
     affiliation: ELIXIR Norway
 
-## Example layout
-# XYZ:
-#    git: 
-#    email: 
-#    orcid: 
-#    role: Lead: Literate Programming
-#    affiliation:
-    
+# Adding names alphabetically    
 # Literate Programming
 Maria Elisa Pierfederici:
     git: mariapie
