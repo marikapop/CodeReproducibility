@@ -11,3 +11,23 @@ Code Reproducibility (CodeRep) was initiated in 2022, as a part of ELIXIR Conver
 ## Literate Programming
 
 {% include contributor-tiles-all.html custom="Maria Elisa Pierfederici"%}
+
+## Version Control
+
+{% include contributor-tiles-all.html custom="Gaurav Bhalerao"%}
+
+## Software Documentation
+
+{% include contributor-tiles-all.html custom=""%}
+
+## Software Testing
+
+{% include contributor-tiles-all.html custom=""%}
+
+## Containers
+
+{% include contributor-tiles-all.html custom="Alexander Botzki"%}
+
+## Continuous Integration/Deployment
+
+{% include contributor-tiles-all.html custom=""%}
