@@ -68,7 +68,14 @@ Alexander Botzki:
     orcid: 0000-0001-6691-4233
     role: Lead and Author
     affiliation: ELIXIR Belgium
-
+    
+Naeem Muhammad:
+    git: naeemmuhammad
+    email: Naeem.Muhammad@kuleuven.be
+    orcid: 0000-0003-4475-0164
+    role: Author
+    affiliation: KU Leuven, Belgium
+    
 # CI/CD
 
 
