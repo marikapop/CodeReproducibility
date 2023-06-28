@@ -42,13 +42,20 @@ Maria Elisa Pierfederici:
     affiliation: University of Oslo, Norway
 
 # Version Control
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    role: Author
+    affiliation: University of Tartu, ELIXIR Estonia
+    
 Gaurav Bhalerao:
     git: gvbhalerao591
     email: gaurav.bhalerao@psych.ox.ac.uk
     orcid: 0000-0002-3325-3413
     role: Author
     affiliation: University of Oxford, Oxford
-
+ 
 Minghao Zhang:
     git: Tiger2lala
     email: mz407@cam.ac.uk
