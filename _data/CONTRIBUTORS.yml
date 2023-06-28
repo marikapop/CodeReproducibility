@@ -27,6 +27,13 @@ Nazeefa Fatima:
 
 # Adding names alphabetically    
 # Literate Programming
+Clement Lee:
+    git: clement-lee
+    email: clement.lee@newcastle.ac.uk
+    orcid: 0000-0003-1785-8671
+    role: Author
+    affiliation: Newcastle University, UK
+
 Maria Elisa Pierfederici:
     git: mariapie
     email: mariaepi@uio.no
@@ -35,21 +42,41 @@ Maria Elisa Pierfederici:
     affiliation: University of Oslo, Norway
 
 # Version Control
-Gaurav Bhalerao:
-    git: gvbhalerao591
-    email: gaurav.bhalerao@psych.ox.ac.uk
-    orcid: 0000-0002-3325-3413
-    role: Author
-    affiliation: University of Oxford, Oxford
-
 Diana Pilvar:
     git: diana-pilvar
     email: diana.pilvar@ut.ee
     orcid: 0000-0002-5788-2687
     role: Author
     affiliation: University of Tartu, ELIXIR Estonia
+    
+Gaurav Bhalerao:
+    git: gvbhalerao591
+    email: gaurav.bhalerao@psych.ox.ac.uk
+    orcid: 0000-0002-3325-3413
+    role: Author
+    affiliation: University of Oxford, Oxford
+ 
+Minghao Zhang:
+    git: Tiger2lala
+    email: mz407@cam.ac.uk
+    orcid: 0000-0002-5401-6070
+    role: lead
+    affiliation: University of Cambridge, UK
+
+Marina Popleteeva:
+    git: marikapop
+    email: marina.popleteeva@uni.lu
+    orcid: 0000-0002-8409-6147
+    role: Author
+    affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
 
 # Code/Software Documentation
+Jenny Chim:
+    git: j-chim
+    email: c.chim@qmul.ac.uk
+    orcid: 0000-0002-1819-454X
+    role: Lead and Author
+    affiliation: Queen Mary University of London, UK
 
 # Code/Software Testing
 
@@ -61,7 +88,14 @@ Alexander Botzki:
     orcid: 0000-0001-6691-4233
     role: Lead and Author
     affiliation: ELIXIR Belgium
-
+    
+Naeem Muhammad:
+    git: naeemmuhammad
+    email: Naeem.Muhammad@kuleuven.be
+    orcid: 0000-0003-4475-0164
+    role: Author
+    affiliation: KU Leuven, Belgium
+    
 # CI/CD
 
 
