@@ -3,14 +3,14 @@
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
 # Extra metadata that is possible to add:
 # Full Name:
-#    git: github id
-#    email: email adress
-#    orcid: ocrid id
+#    git: GitHub id
+#    email: email address
+#    orcid: ORCiD id
 #    role: the role of the contributor
 #    affiliation: affiliation
-#    image_url: absolute path to image (default image from github)
+#    image_url: absolute path to image (default image from GitHub)
 
-# Project Leads of Code Reproduciibility
+# Project Leads of Code Reproducibility
 Alexia Cardona:
     git: ac812
     email: ac812@cam.ac.uk
@@ -77,6 +77,13 @@ Jenny Chim:
     orcid: 0000-0002-1819-454X
     role: Lead and Author
     affiliation: Queen Mary University of London, UK
+
+Pradeep Eranti:
+    git: peranti
+    email: 
+    orcid: 0000-0002-3060-3967
+    role: Author
+    affiliation: Université Paris Cité, France    
 
 # Code/Software Testing
 
