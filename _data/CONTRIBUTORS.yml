@@ -25,7 +25,7 @@ Nazeefa Fatima:
     #role: Lead
     affiliation: ELIXIR Norway
 
-# Adding names alphabetically    
+# Adding names in alphabetical order    
 # Literate Programming
 Clement Lee:
     git: clement-lee
@@ -60,7 +60,7 @@ Minghao Zhang:
     git: Tiger2lala
     email: mz407@cam.ac.uk
     orcid: 0000-0002-5401-6070
-    role: lead
+    role: Lead
     affiliation: University of Cambridge, UK
 
 Marina Popleteeva:
