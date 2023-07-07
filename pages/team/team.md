@@ -18,7 +18,7 @@ Code Reproducibility (CodeRep) was initiated in 2022, as a part of ELIXIR Conver
 
 ## Software Documentation
 
-{% include contributor-tiles-all.html custom="Jenny Chim, Pradeep Eranti:"%}
+{% include contributor-tiles-all.html custom="Jenny Chim, Pradeep Eranti"%}
 
 ## Software Testing
 
