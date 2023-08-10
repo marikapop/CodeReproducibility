@@ -27,12 +27,20 @@ Nazeefa Fatima:
 
 # Adding names in alphabetical order    
 # Literate Programming
+
 Mark Fernandes:
     git: mfernandes61
     email: maf72@cam.ac.uk
     orcid: 
     role: Author
     affiliation: University of Cambridge, UK
+
+Saad Arif:
+    git: saadarif
+    email: sarif@brookes.ac.uk
+    orcid: 0000-0003-0811-8604
+    role: Lead and Author
+    affiliation: Oxford Brookes University, UK
     
 Clement Lee:
     git: clement-lee
