@@ -5,7 +5,6 @@ permalink: /lessons/
 lessons:
     - title: Version Control
       description: Lessons on Version Control
-      url: https://en.wikipedia.org/wiki/Version_control
       tracks: [Python, R]
     - title: Graphs
       description: Lessons on Graphs
