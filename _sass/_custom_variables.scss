@@ -20,8 +20,10 @@ $sidebar-color-active: $white;
 $toc-bg: $white;
 
 /*-----Section navigation tiles-----*/
-$nav-card-bg: $white;
-$nav-card-header-bg: $dark;
+$nav-card-bg: $light;
+$nav-card-bg-hover: $primary;
+$nav-card-color-hover: $white;
+$nav-card-header-color: $dark;
 
 /*-----More information tiles-----*/
 $info-card-bg: $light;
