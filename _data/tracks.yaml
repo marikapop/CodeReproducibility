@@ -1,0 +1,6 @@
+- name: Python
+  image_url: assets/img/Python-logo-notext.svg.png
+  url: https://en.wikipedia.org/wiki/Python_(programming_language)
+- name: R
+  image_url: assets/img/R_logo.svg.png
+  url: https://en.wikipedia.org/wiki/R_(programming_language)

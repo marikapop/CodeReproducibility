@@ -1,13 +1,13 @@
 title: Code Reproducibility Training 
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: ''
+topnav_title: Code Reproducibility
 # this appears on the top navigation bar next to the home button
 
 description: Training material on how to make code FAIR
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.25.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.2.0
 
 #training_link_prefix: https://elixir-europe-training.github.io/
 
