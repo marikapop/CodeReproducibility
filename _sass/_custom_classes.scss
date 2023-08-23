@@ -45,7 +45,6 @@ main {
 /*-----Box shadows-----*/
 
 .navbar,
-#toc,
 .contributor-cards .card,
 #side-nav>ul>li>a,
 .sidebar-collapse,
@@ -71,4 +70,23 @@ main {
 
 nav .navbar-brand {
     font-size: calc(1rem + .54vw);
+}
+
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card,
+    .btn {
+        background-color: $nav-card-bg;
+        &:hover {
+            background-color: $nav-card-bg-hover;
+            transition: $btn-transition;
+            color: $nav-card-color-hover;
+            a.section-title {
+                text-decoration: none;
+                transition: $btn-transition;
+                color: $nav-card-color-hover;
+            }
+        }
+    }
 }

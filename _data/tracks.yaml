@@ -1,13 +1,7 @@
 #The file is named affiliations as part of ELIXIR Toolkit Theme. For CodeReproducibility website, Python and R tracks are referred to as affiliations.
-- name: Python Track
+- name: Python
   image_url: assets/img/Python-logo-notext.svg.png
-  pid:
-  expose: true
-  type: track
-  url: 
-- name: R Track
-  image_url: assets/img/tracks/R_logo.svg.png
-  pid:
-  expose: true
-  type: track
-  url: 
+  url: https://en.wikipedia.org/wiki/Python_(programming_language)
+- name: R
+  image_url: assets/img/R_logo.svg.png
+  url: https://en.wikipedia.org/wiki/R_(programming_language)
